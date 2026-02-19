@@ -1,0 +1,51 @@
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #141e30, #243b55);
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background: #00c6ff;
+  font-weight: bold;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 25px;
+  width: 380px;
+  margin: auto;
+  border-radius: 15px;
+  backdrop-filter: blur(15px);
+  transition: 0.3s;
+}
+
+.flash-up {
+  box-shadow: 0 0 20px #00ff88;
+}
+
+.flash-down {
+  box-shadow: 0 0 20px #ff4d4d;
+}
+
+.green { color: #00ff88; }
+.red { color: #ff4d4d; }
+.yellow { color: #ffd700; }
+
+
+
